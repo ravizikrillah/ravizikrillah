@@ -17,8 +17,32 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=go,kotlin,ts,js,nodejs,postgres,redis,kafka,docker,kubernetes,aws,linux,androidstudio,git,github,postman&perline=8" alt="Languages, Architecture and Tools" />
+    <img src="https://skillicons.dev/icons?i=go,kotlin,ts,js,nodejs,nestjs,graphql,apollo,postman,markdown" alt="Languages, Frameworks and APIs" />
   </a>
+  <br />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,kafka,rabbitmq,nginx,docker,kubernetes,aws,vercel" alt="Databases, Messaging and Cloud Infrastructure" />
+  </a>
+  <br />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,git,github,gitlab,vscode,androidstudio,figma,obsidian,notion" alt="DevOps, IDEs, Design and Knowledge Base" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=cncf&logoColor=white" alt="gRPC" />
+  <img src="https://img.shields.io/badge/Protobuf-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Protobuf" />
+  <img src="https://img.shields.io/badge/OpenAPI_%2F_Swagger-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI / Swagger" />
+  <img src="https://img.shields.io/badge/Kong_Gateway-003459?style=flat-square&logo=kong&logoColor=white" alt="Kong Gateway" />
+  <img src="https://img.shields.io/badge/KrakenD_APIGW-0F172A?style=flat-square" alt="KrakenD APIGW" />
+  <img src="https://img.shields.io/badge/PlantUML-3B4D6B?style=flat-square&logo=uml&logoColor=white" alt="PlantUML" />
+  <img src="https://img.shields.io/badge/Mermaid-FF3670?style=flat-square&logo=mermaid&logoColor=white" alt="Mermaid" />
+  <img src="https://img.shields.io/badge/Miro-FFD02F?style=flat-square&logo=miro&logoColor=050038" alt="Miro" />
+  <br />
+  <img src="https://img.shields.io/badge/Claude_%2F_Anthropic-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude / Anthropic" />
+  <img src="https://img.shields.io/badge/Google_Gemini-4E75F6?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
+  <img src="https://img.shields.io/badge/OpenAI-10A37F?style=flat-square" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/MCP-111827?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol (MCP)" />
 </p>
 
 <p align="center">

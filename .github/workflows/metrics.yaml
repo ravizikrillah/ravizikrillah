@@ -1,0 +1,75 @@
+name: Generate GitHub Metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs daily at 00:30 UTC (07:30 WIB)
+    - cron: "30 0 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/metrics.yaml"
+
+permissions:
+  contents: write
+  issues: read
+  pull-requests: read
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      HAS_METRICS_TOKEN: ${{ secrets.METRICS_TOKEN != '' }}
+
+    steps:
+      - name: Explain METRICS_TOKEN setup when secret is not set yet
+        if: env.HAS_METRICS_TOKEN != 'true'
+        run: |
+          {
+            echo "### ℹ️ \`METRICS_TOKEN\` belum dikonfigurasi"
+            echo "File \`github-metrics.svg\` bawaan tetap tampil aman di README."
+            echo ""
+            echo "Untuk mengaktifkan auto-update penuh dari \`lowlighter/metrics\`:"
+            echo "1. Buat Classic Personal Access Token (scope \`read:user\` / public access) di **GitHub Settings → Developer settings → Personal access tokens**."
+            echo "2. Simpan di repository ini pada menu **Settings → Secrets and variables → Actions → New repository secret** dengan nama \`METRICS_TOKEN\`."
+            echo "3. Jalankan ulang workflow **Generate GitHub Metrics** lewat tombol **Run workflow**."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Checkout repository
+        if: env.HAS_METRICS_TOKEN == 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Generate GitHub Metrics SVG
+        if: env.HAS_METRICS_TOKEN == 'true'
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Ravizikrillah
+          template: classic
+          base: header, activity, community, repositories, metadata
+          base_indepth: true
+          config_octicon: true
+          config_timezone: Asia/Jakarta
+          config_twemoji: true
+
+          # Languages plugin
+          plugin_languages: true
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_indepth: true
+          plugin_languages_limit: 8
+          plugin_languages_other: true
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+
+          # Commit directly to main
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: main
+          committer_message: "chore: update github-metrics.svg [skip ci]"

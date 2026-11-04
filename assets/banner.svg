@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%" role="img" aria-label="Ravi Bangkit Nur Zikrillah - System Analyst, Backend Engineer &amp; AI-Native Builder">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14" />
+      <stop offset="55%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#091326" />
+    </linearGradient>
+
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.85" />
+    </linearGradient>
+
+    <radialGradient id="glowLeft" cx="15%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowRight" cx="85%" cy="75%" r="50%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#334155" stroke-width="0.6" stroke-opacity="0.35" />
+    </pattern>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="320" rx="16" fill="url(#bg)" />
+  <rect width="1200" height="320" rx="16" fill="url(#grid)" />
+  <rect width="1200" height="320" rx="16" fill="url(#glowLeft)" />
+  <rect width="1200" height="320" rx="16" fill="url(#glowRight)" />
+  <rect x="0.75" y="0.75" width="1198.5" height="318.5" rx="15.25" fill="none" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Left Content: Identity & Positioning -->
+  <g transform="translate(64, 58)">
+    <!-- Role Pill -->
+    <rect x="0" y="0" width="446" height="30" rx="15" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1" />
+    <circle cx="18" cy="15" r="4.5" fill="#2DD4BF" />
+    <text x="32" y="19.5" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="600" letter-spacing="1.2">
+      SYSTEM ANALYST · BACKEND · AI-NATIVE BUILDER
+    </text>
+
+    <!-- Full Name -->
+    <text x="0" y="88" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" letter-spacing="-0.8">
+      Ravi Bangkit Nur Zikrillah
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="126" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="400">
+      Architecting resilient microservices, ground-truth system specs &amp; deterministic AI agents.
+    </text>
+
+    <!-- Accent Divider -->
+    <rect x="0" y="148" width="480" height="2.5" rx="1.25" fill="url(#accentLine)" />
+
+    <!-- Domain Tags -->
+    <g transform="translate(0, 172)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#CBD5E1">
+      <rect x="0" y="0" width="146" height="28" rx="6" fill="#1E293B" fill-opacity="0.75" stroke="#334155" stroke-width="1" />
+      <text x="73" y="18" text-anchor="middle">Go &amp; Microservices</text>
+
+      <rect x="158" y="0" width="166" height="28" rx="6" fill="#1E293B" fill-opacity="0.75" stroke="#334155" stroke-width="1" />
+      <text x="241" y="18" text-anchor="middle">System Architecture</text>
+
+      <rect x="336" y="0" width="142" height="28" rx="6" fill="#1E293B" fill-opacity="0.75" stroke="#334155" stroke-width="1" />
+      <text x="407" y="18" text-anchor="middle">Agentic Tooling</text>
+
+      <rect x="490" y="0" width="136" height="28" rx="6" fill="#1E293B" fill-opacity="0.75" stroke="#334155" stroke-width="1" />
+      <text x="558" y="18" text-anchor="middle">Kotlin &amp; Web</text>
+    </g>
+  </g>
+
+  <!-- Right Content: Architectural Node Blueprint Card -->
+  <g transform="translate(815, 44)">
+    <rect x="0" y="0" width="325" height="232" rx="12" fill="url(#cardBg)" stroke="#334155" stroke-width="1.2" />
+    <!-- Window Controls -->
+    <circle cx="20" cy="20" r="5" fill="#EF4444" fill-opacity="0.85" />
+    <circle cx="36" cy="20" r="5" fill="#F59E0B" fill-opacity="0.85" />
+    <circle cx="52" cy="20" r="5" fill="#10B981" fill-opacity="0.85" />
+    <text x="74" y="24" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">
+      @ravizikrillah // blueprint.yaml
+    </text>
+    <line x1="0" y1="38" x2="325" y2="38" stroke="#334155" stroke-width="1" />
+
+    <!-- Code / Spec Content -->
+    <g transform="translate(20, 64)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5">
+      <text x="0" y="0" fill="#38BDF8">engineer:</text>
+      <text x="16" y="22" fill="#94A3B8">handle:</text>
+      <text x="86" y="22" fill="#F8FAFC">"@Ravizikrillah"</text>
+
+      <text x="16" y="44" fill="#94A3B8">focus:</text>
+      <text x="32" y="66" fill="#2DD4BF">- Distributed Backend</text>
+      <text x="32" y="86" fill="#818CF8">- Enterprise HLD / LLD</text>
+      <text x="32" y="106" fill="#38BDF8">- Zero-Hallucination AI</text>
+
+      <text x="16" y="132" fill="#94A3B8">philosophy:</text>
+      <text x="32" y="152" fill="#FDE047">"Provenance &gt; Guesswork"</text>
+    </g>
+  </g>
+</svg>

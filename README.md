@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/Ravizikrillah">
+  <a href="https://github.com/ravizikrillah">
     <img src="./assets/banner.svg" width="100%" alt="Ravi Bangkit Nur Zikrillah - System Analyst, Backend Engineer & AI-Native Builder" />
   </a>
 </p>
@@ -23,9 +23,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ravizikrillah/Ravizikrillah/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ravizikrillah/Ravizikrillah/output/github-snake.svg" />
-    <img width="100%" alt="GitHub Contributions Snake" src="https://raw.githubusercontent.com/Ravizikrillah/Ravizikrillah/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ravizikrillah/ravizikrillah/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ravizikrillah/ravizikrillah/output/github-snake.svg" />
+    <img width="100%" alt="GitHub Contributions Snake" src="https://raw.githubusercontent.com/ravizikrillah/ravizikrillah/output/github-snake-dark.svg" />
   </picture>
 </p>
 
@@ -33,28 +33,28 @@
   <tr>
     <td width="48%" valign="top">
       <p align="center">
-        <img width="100%" src="./github-metrics.svg" alt="Ravizikrillah GitHub Metrics" />
+        <img width="100%" src="./github-metrics.svg" alt="ravizikrillah GitHub Metrics" />
       </p>
       <h3>🚀 Featured Open Source</h3>
       <ul>
         <li>
-          <a href="https://github.com/Ravizikrillah/second-brain"><b>second-brain</b></a> — Universal System Analyst &amp; Architectural Second Brain for AI Agents with strict provenance citations.
+          <a href="https://github.com/ravizikrillah/second-brain"><b>second-brain</b></a> — Universal System Analyst &amp; Architectural Second Brain for AI Agents with strict provenance citations.
         </li>
         <li>
-          <a href="https://github.com/Ravizikrillah/ui-design"><b>ui-design</b></a> — Anti-slop UI/UX Design &amp; Frontend Engineering Engine with <code>DESIGN.md</code> contracts and Playwright verification.
+          <a href="https://github.com/ravizikrillah/ui-design"><b>ui-design</b></a> — Anti-slop UI/UX Design &amp; Frontend Engineering Engine with <code>DESIGN.md</code> contracts and Playwright verification.
         </li>
         <li>
-          <a href="https://github.com/Ravizikrillah/BatteryLock"><b>BatteryLock</b></a> &amp; <a href="https://github.com/Ravizikrillah/ChargeLock"><b>ChargeLock</b></a> — Child-safe Android battery hysteresis &amp; charging locks with Family Link integration.
+          <a href="https://github.com/ravizikrillah/BatteryLock"><b>BatteryLock</b></a> &amp; <a href="https://github.com/ravizikrillah/ChargeLock"><b>ChargeLock</b></a> — Child-safe Android battery hysteresis &amp; charging locks with Family Link integration.
         </li>
         <li>
-          <a href="https://github.com/Ravizikrillah/CleanFrame-AndroidTV"><b>CleanFrame-AndroidTV</b></a> — Distraction-free Google TV / Android TV home launcher with Art Mode screensaver.
+          <a href="https://github.com/ravizikrillah/CleanFrame-AndroidTV"><b>CleanFrame-AndroidTV</b></a> — Distraction-free Google TV / Android TV home launcher with Art Mode screensaver.
         </li>
       </ul>
     </td>
     <td width="52%" valign="top">
       <h3>🌐 Let's Connect and Grow Together!</h3>
       <p>
-        <a href="https://github.com/Ravizikrillah" target="_blank">
+        <a href="https://github.com/ravizikrillah" target="_blank">
           <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg" alt="GitHub" />
         </a>
         <!-- Uncomment dan isi username asli kamu jika ingin menampilkan LinkedIn / YouTube / Instagram seperti OfficialCodeVoyage:

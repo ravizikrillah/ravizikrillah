@@ -62,6 +62,9 @@
       <h3>🚀 Featured Open Source</h3>
       <ul>
         <li>
+          <a href="https://github.com/ravizikrillah/specmesh"><b>specmesh</b></a> — Deterministic Cross-Artifact Semantic Coherence &amp; Pre-Refinement Gate for System Analysts (<code>.puml</code>, Mermaid, Markdown IFA/LLD, OpenAPI/Protobuf, SQL DDL &amp; SARIF).
+        </li>
+        <li>
           <a href="https://github.com/ravizikrillah/gatekit"><b>gatekit</b></a> — Unified Deterministic AI Agent Safety Triad: <a href="https://github.com/ravizikrillah/scopegate"><b>ScopeGate</b></a> (pre-execution scope &amp; blast-radius), <a href="https://github.com/ravizikrillah/sagagate"><b>SagaGate</b></a> (transactional MCP dry-run &amp; <code>N..1</code> rollback), <a href="https://github.com/ravizikrillah/groundgate"><b>GroundGate</b></a> (pre-emission <code>git write-tree</code> &amp; AST claim compiler), and <a href="https://github.com/ravizikrillah/replaygate"><b>ReplayGate</b></a> (deterministic agent VCR &amp; reliability scoring).
         </li>
         <li>

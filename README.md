@@ -8,7 +8,7 @@
 
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=ravizikrillah.ravizikrillah&left_color=%230f172a&right_color=%230284c7" alt="Visitor Badge" />
-  <a href="https://www.skills.sh/ravizikrillah/second-brain">
+  <a href="https://www.skills.sh/ravizikrillah">
     <img src="https://img.shields.io/badge/skills.sh-ravizikrillah-0284c7?style=flat&logo=github&logoColor=white" alt="Skills Directory" />
   </a>
 </p>
@@ -61,6 +61,12 @@
       </p>
       <h3>🚀 Featured Open Source</h3>
       <ul>
+        <li>
+          <a href="https://github.com/ravizikrillah/groundgate"><b>groundgate</b></a> — Deterministic Pre-Emission Markdown Claim &amp; Causal-Freshness Compiler for AI Agents (<code>git write-tree</code>, AST span &amp; URL provenance).
+        </li>
+        <li>
+          <a href="https://github.com/ravizikrillah/sagagate"><b>sagagate</b></a> — Transactional dry-run, SQLite Shadow Ledger (<code>N..1</code> compensating rollback), and Outbox Staging proxy for MCP tool calls.
+        </li>
         <li>
           <a href="https://github.com/ravizikrillah/second-brain"><b>second-brain</b></a> — Universal System Analyst &amp; Architectural Second Brain for AI Agents with strict provenance citations.
         </li>
